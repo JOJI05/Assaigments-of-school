@@ -19,4 +19,6 @@ for i in anser_array:
     print(" ", end = "")
 time.sleep(1)
 print("")
-print("全部で5*3*2*1 = ", len(anser_array))
+print("上の数字の種類は", len(anser_array))
+print("解析的に計算すると全部で5*3*2*1 = ", len(anser_array))
+print(sum(anser_array))
